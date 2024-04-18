@@ -1,0 +1,124 @@
+.fondo-hero{
+    background-image: url(https://i.pinimg.com/736x/e7/66/86/e76686d11259a2d0d8ae5dc2c1c61025.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 0 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: #d001ff;
+}
+
+.contenedor{
+    background-color: rgb(208, 78, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.imagenes-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.imagenes-contenedor img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.galeria-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galeria-imagenes img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.texto-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00fb4f;
+    text-align: center;
+}
+
+.texto.descrip{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.texto-relleno{
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.texto-descripcionjuego{
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+
+h1{
+    color: #ff0000;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
